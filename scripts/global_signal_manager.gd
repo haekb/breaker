@@ -6,7 +6,7 @@ extends Node
 
 
 signal signal_release_ball()
-signal signal_block_hit()
+signal signal_block_hit(other)
 signal signal_increase_score(score)
 
 func _ready():

@@ -48,6 +48,7 @@ func _fixed_process(delta):
 		var normal = ballbox.get_collision_normal()
 		movement = normal.reflect(movement) * bounce
 		ball_direction = normal.reflect(ball_direction)
+		global_signal_manager.emit_signal("signal_block_hit", ballbox.get_collider())
 
 
 

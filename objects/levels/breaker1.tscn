@@ -1,0 +1,643 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://objects/block_object.tscn" type="PackedScene" id=1]
+
+[node name="Level Controller" type="Node2D"]
+
+[node name="Block" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 278 )
+
+[node name="Block1" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 99, 278 )
+
+[node name="Block3" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 278 )
+
+[node name="Block4" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 280 )
+
+[node name="Block5" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 268 )
+
+[node name="Block6" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 258 )
+
+[node name="Block7" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 248 )
+
+[node name="Block8" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 238 )
+
+[node name="Block9" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 228 )
+
+[node name="Block10" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 218 )
+
+[node name="Block11" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 208 )
+
+[node name="Block12" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 198 )
+
+[node name="Block13" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 188 )
+
+[node name="Block14" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 178 )
+
+[node name="Block15" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 168 )
+
+[node name="Block16" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 158 )
+
+[node name="Block17" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 148 )
+
+[node name="Block18" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 138 )
+
+[node name="Block19" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 128 )
+
+[node name="Block20" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 118 )
+
+[node name="Block21" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 59, 108 )
+
+[node name="Block22" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 99, 108 )
+
+[node name="Block23" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 118 )
+
+[node name="Block24" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 128 )
+
+[node name="Block25" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 138 )
+
+[node name="Block26" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 148 )
+
+[node name="Block27" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 99, 158 )
+
+[node name="Block28" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 168 )
+
+[node name="Block29" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 178 )
+
+[node name="Block30" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 188 )
+
+[node name="Block31" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 198 )
+
+[node name="Block32" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 208 )
+
+[node name="Block33" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 218 )
+
+[node name="Block34" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 228 )
+
+[node name="Block35" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 238 )
+
+[node name="Block36" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 129, 248 )
+
+[node name="Block37" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 119, 258 )
+
+[node name="Block38" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 99, 268 )
+
+[node name="Block39" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 268 )
+
+[node name="Block129 4" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 270 )
+
+[node name="Block40" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 258 )
+
+[node name="Block129 2" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 260 )
+
+[node name="Block41" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 248 )
+
+[node name="Block129 3" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 250 )
+
+[node name="Block42" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 238 )
+
+[node name="Block129 5" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 240 )
+
+[node name="Block43" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 228 )
+
+[node name="Block129" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 230 )
+
+[node name="Block44" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 218 )
+
+[node name="Block129 12" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 220 )
+
+[node name="Block45" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 208 )
+
+[node name="Block129 9" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 210 )
+
+[node name="Block46" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 198 )
+
+[node name="Block129 16" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 200 )
+
+[node name="Block47" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 179, 188 )
+
+[node name="Block129 6" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 826, 190 )
+
+[node name="Block48" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 209, 178 )
+
+[node name="Block129 14" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 846, 180 )
+
+[node name="Block49" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 229, 168 )
+
+[node name="Block129 10" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 866, 170 )
+
+[node name="Block50" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 249, 178 )
+
+[node name="Block129 11" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 886, 180 )
+
+[node name="Block51" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 256, 188 )
+
+[node name="Block129 8" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 904, 190 )
+
+[node name="Block52" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 256, 198 )
+
+[node name="Block129 7" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 904, 200 )
+
+[node name="Block53" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 256, 208 )
+
+[node name="Block129 13" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 904, 210 )
+
+[node name="Block54" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 256, 208 )
+
+[node name="Block129 15" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 904, 210 )
+
+[node name="Block55" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 218 )
+
+[node name="Block128 5" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 220 )
+
+[node name="Block56" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 208 )
+
+[node name="Block128 12" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 210 )
+
+[node name="Block57" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 198 )
+
+[node name="Block128 13" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 200 )
+
+[node name="Block58" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 326, 188 )
+
+[node name="Block128 17" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 726, 190 )
+
+[node name="Block59" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 366, 188 )
+
+[node name="Block128" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 766, 190 )
+
+[node name="Block60" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 346, 178 )
+
+[node name="Block128 6" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 746, 180 )
+
+[node name="Block61" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 386, 198 )
+
+[node name="Block128 7" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 786, 200 )
+
+[node name="Block62" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 386, 208 )
+
+[node name="Block128 9" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 786, 210 )
+
+[node name="Block63" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 366, 218 )
+
+[node name="Block128 2" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 766, 220 )
+
+[node name="Block64" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 336, 228 )
+
+[node name="Block128 3" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 736, 230 )
+
+[node name="Block65" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 238 )
+
+[node name="Block128 18" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 240 )
+
+[node name="Block66" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 248 )
+
+[node name="Block128 23" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 250 )
+
+[node name="Block67" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 306, 258 )
+
+[node name="Block128 21" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 706, 260 )
+
+[node name="Block68" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 316, 268 )
+
+[node name="Block128 20" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 716, 270 )
+
+[node name="Block69" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 336, 278 )
+
+[node name="Block128 22" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 736, 280 )
+
+[node name="Block70" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 366, 268 )
+
+[node name="Block128 19" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 766, 270 )
+
+[node name="Block71" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436, 228 )
+
+[node name="Block72" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436, 238 )
+
+[node name="Block73" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436, 248 )
+
+[node name="Block74" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 446, 258 )
+
+[node name="Block75" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 466, 268 )
+
+[node name="Block76" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 486, 258 )
+
+[node name="Block77" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 506, 268 )
+
+[node name="Block78" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 258 )
+
+[node name="Block79" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 248 )
+
+[node name="Block80" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 238 )
+
+[node name="Block81" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 228 )
+
+[node name="Block82" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 218 )
+
+[node name="Block83" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 208 )
+
+[node name="Block84" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 198 )
+
+[node name="Block85" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 188 )
+
+[node name="Block86" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 178 )
+
+[node name="Block87" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 496, 188 )
+
+[node name="Block88" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 466, 188 )
+
+[node name="Block89" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 446, 198 )
+
+[node name="Block90" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436, 208 )
+
+[node name="Block91" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 436, 218 )
+
+[node name="Block92" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 526, 278 )
+
+[node name="Block93" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 108 )
+
+[node name="Block94" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 118 )
+
+[node name="Block95" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 128 )
+
+[node name="Block96" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 138 )
+
+[node name="Block97" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 148 )
+
+[node name="Block98" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 158 )
+
+[node name="Block99" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 168 )
+
+[node name="Block100" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 178 )
+
+[node name="Block101" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 188 )
+
+[node name="Block102" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 198 )
+
+[node name="Block103" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 208 )
+
+[node name="Block104" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 218 )
+
+[node name="Block105" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 228 )
+
+[node name="Block106" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 238 )
+
+[node name="Block107" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 248 )
+
+[node name="Block108" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 258 )
+
+[node name="Block109" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 268 )
+
+[node name="Block110" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 586, 278 )
+
+[node name="Block111" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 626, 178 )
+
+[node name="Block112" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 626, 188 )
+
+[node name="Block113" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 198 )
+
+[node name="Block114" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 208 )
+
+[node name="Block115" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 218 )
+
+[node name="Block116" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 228 )
+
+[node name="Block117" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 238 )
+
+[node name="Block118" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 248 )
+
+[node name="Block119" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 258 )
+
+[node name="Block120" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 268 )
+
+[node name="Block121" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 278 )
+
+[node name="Block122" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 168 )
+
+[node name="Block123" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 158 )
+
+[node name="Block124" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 138 )
+
+[node name="Block125" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 148 )
+
+[node name="Block126" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 138 )
+
+[node name="Block127" parent="." instance=ExtResource( 1 )]
+
+transform/pos = Vector2( 656, 128 )
+
+

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=5 format=1]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
 [ext_resource path="res://objects/composites/paddle_ball_composite.tscn" type="PackedScene" id=2]
 [ext_resource path="res://objects/Wall.tscn" type="PackedScene" id=3]
+[ext_resource path="res://objects/levels/breaker1.tscn" type="PackedScene" id=4]
 
 [node name="Node2D" type="Node2D"]
 
@@ -43,5 +44,22 @@ text = "Score: "
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[node name="FPS" type="Label" parent="Game Objects"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 48.0
+margin/top = 8.0
+margin/right = 151.0
+margin/bottom = 22.0
+text = "FPS:"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="Level Controller" parent="Game Objects" instance=ExtResource( 4 )]
 
 
