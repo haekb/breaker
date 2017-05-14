@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://objects/composites/paddle_ball_composite.tscn" type="PackedScene" id=2]
+[ext_resource path="res://objects/Wall.tscn" type="PackedScene" id=3]
+
+[node name="Node2D" type="Node2D"]
+
+transform/pos = Vector2( 32, 32 )
+script/script = ExtResource( 1 )
+
+[node name="Game Objects" type="Node2D" parent="."]
+
+[node name="Paddle" parent="Game Objects" instance=ExtResource( 2 )]
+
+transform/pos = Vector2( 480, 500 )
+
+[node name="Left Wall" parent="Game Objects" instance=ExtResource( 3 )]
+
+transform/pos = Vector2( 3.03422, 268 )
+
+[node name="Left Wall1" parent="Game Objects" instance=ExtResource( 3 )]
+
+transform/pos = Vector2( 958, 268 )
+
+[node name="Left Wall2" parent="Game Objects" instance=ExtResource( 3 )]
+
+transform/pos = Vector2( 483, 2.99998 )
+transform/rot = -89.9999
+transform/scale = Vector2( 1.09375, 13.9063 )
+
+[node name="Score" type="Label" parent="Game Objects"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 48.0
+margin/top = -12.0
+margin/right = 151.0
+margin/bottom = 2.0
+text = "Score: "
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+
